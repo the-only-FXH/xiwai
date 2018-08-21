@@ -4,8 +4,7 @@ import sys
 
 sys.path.append("..")
 from tools.logger import logger 
-from dao.model import User
-from dao.engineAndSession import engine, Session
+from dao.model import User,engine, Session
 
 # 用户操作函数
 class UserDao:
@@ -38,10 +37,10 @@ class UserDao:
         elif(flag==2):
             self.user.flag=1
         else:
-            logger.error("用户绑定失败")
+            logger.error("用户"+self.user.openid+"用户绑定失败")
             return False
         self.session.commit()
-        logger.info("用户绑定成功")
+        logger.info("用户"+self.user.openid+"用户绑定成功")
         return True
 
     # 解除绑定
@@ -50,14 +49,25 @@ class UserDao:
         if(flag==3):
             self.user.flag=0
             self.session.commit()
-            logger.error("用户解绑成功")
+            logger.error("用户"+self.user.openid+"用户解绑成功")
             return True
         else:
-            logger.error("用户未绑定，无法解绑")
+            logger.error("用户"+self.user.openid+"用户未绑定，无法解绑")
             return False
-
-    def selectUserInfoByOpenid(self, openid):
+    
+    def selectUserInfoByOpenid(self,openid):
         if(self.__selectUserFlag(openid)!=3):
             return None
         else:
             return(self.user.username,self.user.password)
+
+
+# a=UserDao() 
+# data={
+#     "openid":"123456",
+#     "username":"107242017000646",
+#     "password":"107242017000646"
+# }
+# print(a.insertOrUpdateUser(data))
+
+#print(a.selectUserInfoByOpenid("123456"))

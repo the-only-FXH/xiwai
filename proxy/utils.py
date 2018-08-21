@@ -5,7 +5,7 @@ import asyncio
 
 import aiohttp
 
-from .config import HEADERS, REQUEST_TIMEOUT, REQUEST_DELAY
+from proxy.config import HEADERS, REQUEST_TIMEOUT, REQUEST_DELAY
 
 
 async def _get_page(url, sleep):

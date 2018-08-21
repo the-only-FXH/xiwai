@@ -5,9 +5,17 @@ import sys
 from sqlalchemy.sql import func
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker
 from sqlalchemy import Column, String, Boolean, Text, TIMESTAMP
+sys.path.append("..")
+from config import configfile
 
-from dao.engineAndSession import engine,Session
+
+engine = create_engine(
+    configfile.getConfig("database","DATABASE_URL"),
+    encoding='utf-8',
+    echo=False)
+Session = sessionmaker(bind=engine, autocommit=False, autoflush=False)
 
 BaseModel = declarative_base()
 
@@ -31,4 +39,4 @@ class Scores(BaseModel):
     updateTime = Column(TIMESTAMP(True), nullable=False)
 
 
-#BaseModel.metadata.create_all(engine)
+BaseModel.metadata.create_all(engine)

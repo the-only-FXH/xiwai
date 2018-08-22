@@ -27,7 +27,7 @@ class User(BaseModel):
     username = Column(String(45))
     password = Column(String(45))
     # 是否绑定
-    flag = Column(Boolean, nullable=False, default=False)
+    flag = Column(Boolean, nullable=False, default=True)
 
 
 class Scores(BaseModel):
@@ -39,4 +39,12 @@ class Scores(BaseModel):
     updateTime = Column(TIMESTAMP(True), nullable=False)
 
 
-BaseModel.metadata.create_all(engine)
+class KeyWord(BaseModel):
+    __table_args__ = {'mysql_engine': 'InnoDB', 'mysql_charset': 'utf8mb4'}
+    __tablename__ = 'keyword'
+    wordID = Column(String(20),primary_key=True)
+    type = Column(String(20))
+    result = Column(Text)
+
+
+#BaseModel.metadata.create_all(engine)

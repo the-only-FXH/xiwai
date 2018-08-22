@@ -14,11 +14,11 @@ class UserDao:
 
     # 查看该用户是否可以进行绑定
     def __selectUserFlag(self, opendiStr):
-        self.user = self.session.query(User).filter_by(openid=opendiStr).first()
-        if(self.user==None):
+        user = self.session.query(User).filter_by(openid=opendiStr).first()
+        if(user==None):
             logger.info("用户名 "+opendiStr+" 为空")
             return 1
-        elif(self.user.flag==0):
+        elif(user.flag==0):
             logger.info("用户名 "+opendiStr+" 以解绑")
             return 2
         else:
@@ -30,7 +30,7 @@ class UserDao:
         self.user.openid=user["openid"]
         self.user.username=user["username"]
         self.user.password=user["password"]
-       
+
         flag=self.__selectUserFlag(self.user.openid)
         if(flag==1):
             self.session.add(self.user)
@@ -59,15 +59,16 @@ class UserDao:
         if(self.__selectUserFlag(openid)!=3):
             return None
         else:
-            return(self.user.username,self.user.password)
+            user = self.session.query(User).filter_by(openid=openid).first()
+            return(user.username,user.password)
 
 
-# a=UserDao() 
-# data={
-#     "openid":"123456",
-#     "username":"107242017000646",
-#     "password":"107242017000646"
-# }
-# print(a.insertOrUpdateUser(data))
+#a=UserDao() 
+#data={
+#    "openid":"123456",
+#    "username":"107242017000646",
+#    "password":"107242017000646"
+#}
+#print(a.insertOrUpdateUser(data))
 
 #print(a.selectUserInfoByOpenid("123456"))

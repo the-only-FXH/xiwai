@@ -2,9 +2,9 @@
 # coding=utf-8
 
 import time
-
+import sys
 import schedule
-
+#sys.path.append("..")
 from proxy.config import CRAWLER_RUN_CYCLE, VALIDATOR_RUN_CYCLE
 
 from proxy.crawler import crawler

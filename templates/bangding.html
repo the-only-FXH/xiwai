@@ -1,0 +1,42 @@
+$def with(openid)
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title>用户绑定</title>
+	    <meta charset="UTF-8" />
+	    <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0" />
+	    <link rel="stylesheet" href="/static/bang/css/animate.css"/>
+	    <link rel="stylesheet" href="/static/bang/css/bootstrap.min.css"/> 
+	    <link rel="stylesheet" type="text/css" href="/static/bang/css/style.css">
+	</head>
+	<body>
+	<!-- header开始 -->
+	<div class="header animated bounceInDown">
+	    <img src="/static/bang/images/chd.jpg" class="text-center img-rounded"height="100%" alt="">
+	</div>
+	<!-- header结束 -->
+	<!-- content开始 -->
+	<div class="container animated pulse">
+	    <form action="postBindData" class="form" method="post">
+	        <div class="form-group">
+	            <label>学号</label>
+	            <input type="text" name="username" class="form-control" placeholder="请输入您的学号">
+	        </div>
+
+	        <div>
+	        	<input type="hidden" name="openid" value="$openid"/>
+	        </div>
+
+	        <div class="form-group">
+	            <label>密码</label>
+	            <input type="password" name="password" class="form-control" placeholder="请输入您的密码">
+	        </div>
+	       <div class="animated bounceInLeft form-group">
+	           <input type="submit" class="btn btn-block btn-info"  value="点击绑定"/>
+	       </div>
+	    </form>
+	</div>
+	<!-- content结束 -->
+
+	</body>
+</html>

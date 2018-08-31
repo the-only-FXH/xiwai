@@ -1,9 +1,10 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # coding=utf-8
 
-from proxy.scheduler import run_schedule
+from wechat.weixin import app
 
 
-#打开代理IP池
-run_schedule()
+if __name__ == '__main__':
+    app.run()
+
 

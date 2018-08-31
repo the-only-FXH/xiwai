@@ -1,0 +1,247 @@
+*{
+	margin: 0;
+	padding: 0;
+	font: normal 100% SimHei, Helvetica, Arial, sans-serif;
+}
+html,body {
+	width: 100%;
+	height: 100%;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+a,a:hover,a:visited,a:link,a:active {
+	text-decoration: none;
+}
+/* 解决IE链接图片右边框*/
+img {
+	border: 0 none;
+}
+#content {
+	width: 100%;
+	height: 100%;
+}
+#content iframe {
+	width: 100%;
+	height: 100%;
+}
+.header {
+	width: 100%;
+	height: 45px;
+	background-color: #2578b5;
+	position: fixed;
+}
+.header ul {
+	width: 96%;
+	height: 45px;
+	margin: 0 auto;
+}
+.header ul li {
+	width: 33%;
+	height: 45px;
+	line-height: 50px;
+	float: left;
+	list-style-type: none;
+}
+.header ul #li3 {
+	text-align: right;
+}
+.header ul li #return {
+	width: 21px;
+	height: 17px;
+}
+.header ul li #refresh {
+	width: 21px;
+	height: 21px;
+}
+.header ul li h1 {
+	text-align: center;
+	line-height: 45px;
+	color: #FFF;
+	font-size: 1.2em;
+}
+.tabdiv {
+	width: 100%;
+	padding-top: 105px;
+}
+.tabdiv table {
+	border-collapse: collapse;
+	width: 100%;
+	color: #3b3737;
+}
+.tabdiv table tr td {
+	height: 30px;
+	line-height: 30px;
+}
+.tabdiv table td {
+	border-bottom: 1px solid #706f6f;
+}
+.tabdiv table tr td img {
+	height: 12px;
+	width: 8px;
+	margin-right: 2px;
+}
+.content h2 {
+	width: 100%;
+	height: 30px;
+	color: #3b3737;
+	background-color: #FFF; 
+	line-height: 30px;
+	text-align: center;
+	position: fixed;
+	top: 45px;
+}
+.cour {
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid #706f6f;
+	background-color: #FFF;
+	color: #2578b5;
+	top: 75px;
+}
+.content .cour .cn{
+	width: 70%;
+	height: 30px;
+	line-height: 30px;
+	border-top: 1px solid #706f6f;
+	float: left;
+}
+.content .cour .cn span {
+	padding-left: 20px;
+}
+.content .cour .cs {
+	width: 30%;
+	height: 30px;
+	line-height: 30px;
+	border-top: 1px solid #706f6f;
+	text-align: center;
+	float: left;
+}
+.course{
+	padding-left: 20px;
+	width: 70%;
+}
+.score {
+	text-align: center;
+	width: 30%;
+}
+.tablist {
+	display: none;
+	background-color: #F8F8F8;
+}
+.tablist .course {
+	padding-left: 30px;
+}
+.list {
+	display: none;
+	width: 100%;
+	padding: 10px 0;
+	background-color: #e4e4e4; 
+	border-bottom: 1px solid #706f6f; 
+}
+.list p {
+	padding-left: 20px;
+}
+.tablist .list p {
+	padding-left: 35px;
+}
+.whole {
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+.whole a {
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+	background-color: #2578b5;
+	color: #FFF;
+	border: 0;
+	border-radius: 5px; 
+}
+.notice {
+	padding-top: 55px;
+	padding-left: 10px;
+}
+.footer {
+	margin-top: 10px;
+	height: 10px;
+	width: 100%;
+	line-height: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.footer span {
+	color: #3b3737;
+	display: block;
+}
+
+.backgroundcolor {
+	display: block;
+	width: 100%;
+	height: 100%;
+	opacity: 0.4; 
+	filter: alpha(opacity=40);
+	background: #000; 
+	position: absolute; 
+	top: 0;
+	left: 0;
+	z-index: 2000;
+}
+.spinner {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  margin-left: -30px;
+  margin-top: -30px;
+  text-align: center;
+  font-size: 10px;
+  z-index: 2001;
+}
+ 
+.spinner > div {
+  background-color: #2578b5;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+   
+  -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+  animation: stretchdelay 1.2s infinite ease-in-out;
+}
+ 
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+ 
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+ 
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+ 
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+ 
+@-webkit-keyframes stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) } 
+  20% { -webkit-transform: scaleY(1.0) }
+}
+ 
+@keyframes stretchdelay {
+  0%, 40%, 100% {
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% {
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}

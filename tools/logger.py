@@ -13,7 +13,7 @@ def get_logger():
     logger = logging.getLogger()
     logger.setLevel(logging.DEBUG)
     rq = time.strftime('%Y%m%d%H', time.localtime(time.time()))
-    log_path = os.path.dirname(os.getcwd()) + '/Logs/'
+    log_path =os.path.dirname(os.path.split(os.path.realpath(__file__))[0]) + '/Logs/'
     log_name = log_path + rq + '.log'
     fh = logging.FileHandler(log_name)
     fh.setLevel(logging.INFO)

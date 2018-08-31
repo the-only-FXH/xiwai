@@ -1,0 +1,54 @@
+$def with(data)
+<!DOCTYPE html>
+<html>
+<head>
+	<title> 成绩查询</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/static/detail/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/static/detail/css/bootstrap.css">
+</head>
+<body>
+<div class="media">
+	<div class="media-body">
+	$for row in data:
+
+		<div class="panel panel-primary">
+			<div class="table-responsive">
+				<table class="table table-hover">
+					<tr>
+						<td class="text-center">课程名</td>
+						<td class="text-center">
+							$row['name']
+						</td>
+					</tr>
+					<tr>
+						<td class="text-center">学分</td>
+						<td class="text-center">
+							$row['xuefen']
+						</td>
+					</tr>
+					<tr>
+						<td class="text-center">成绩</td>
+						<td class="text-center">
+							$row['zuizhong']
+						</td>
+					</tr>
+					<tr>
+						<td class="text-center">绩点</td>
+						<td class="text-center">
+							$row['jidian']
+						</td>
+					</tr>
+					<tr align="center">
+					</tr>
+				</table>
+				
+			</div>
+
+		</div>	
+	</div>
+
+</div>
+</body>
+</html>

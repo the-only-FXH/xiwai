@@ -5,7 +5,7 @@ import sys
 from sqlalchemy.sql import func
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import sessionmaker, scoped_session
 from sqlalchemy import Column, String, Boolean, Text, TIMESTAMP
 sys.path.append("..")
 from config import configfile
@@ -15,7 +15,7 @@ engine = create_engine(
     configfile.getConfig("database","DATABASE_URL"),
     encoding='utf-8',
     echo=False)
-Session = sessionmaker(bind=engine, autocommit=False, autoflush=False)
+Session = scoped_session(sessionmaker(bind=engine, autocommit=False, autoflush=False))
 
 BaseModel = declarative_base()
 
@@ -47,4 +47,4 @@ class KeyWord(BaseModel):
     result = Column(Text)
 
 
-#BaseModel.metadata.create_all(engine)
+BaseModel.metadata.create_all(engine)

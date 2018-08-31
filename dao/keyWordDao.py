@@ -27,10 +27,11 @@ class keyWordDao:
             logger.info("关键字"+keyword+"删除失败")
             return False
 
-    def selectkeyword(self,keywordStr):
+    @staticmethod
+    def selectkeyword(keywordStr):
         dbconnect=engine.connect()
         result=dbconnect.execute(text('select result,type from keyword where INSTR(:ID,wordID)'), ID=keywordStr)
-        if(result==None):
+        if(result.rowcount<=0):
             return False
         else:
             ru = result.fetchall()[0]
@@ -40,6 +41,16 @@ class keyWordDao:
             }
             return resultData
 
+    @staticmethod
+    def dropkeywordList():
+        dbconnect=engine.connect()
+        result=dbconnect.execute('delete from keyword')
+        if(result.rowcount >=0):
+            logger.info("关键字列表已清空")
+            return True
+        else:
+            logger.info("关键字列表清空失败")
+            return False
 
     def updateKeywordList(self,key):
         self.keyword.wordID=key["keyword"]
@@ -56,5 +67,5 @@ class keyWordDao:
         self.session.commit()
 
 
-a=keyWordDao()
-print(a.selectkeyword("绑定"))
+#print(keyWordDao().selectkeyword("我要绑定"))
+

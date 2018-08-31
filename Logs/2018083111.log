@@ -1,0 +1,13 @@
+2018-08-31 11:01:39,263- userDao.py:[line:31]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以绑定
+2018-08-31 11:01:44,066- userDao.py:[line:31]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以绑定
+2018-08-31 11:01:44,070- scoreDao.py:[line:37]- INFO - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc今天已经爬取过成绩
+2018-08-31 11:01:44,070- scoreDao.py:[line:79]- INFO - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc从数据库中取成绩
+2018-08-31 11:01:49,354- userDao.py:[line:31]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以绑定
+2018-08-31 11:01:49,355- userDao.py:[line:31]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以绑定
+2018-08-31 11:02:00,174- userDao.py:[line:31]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以绑定
+2018-08-31 11:10:42,596- keyWordDao.py:[line:49]- INFO - 关键字列表已清空
+2018-08-31 11:10:42,601- keyWordDao.py:[line:62]- INFO - 关键字绑定添加成功
+2018-08-31 11:10:42,606- keyWordDao.py:[line:62]- INFO - 关键字解绑添加成功
+2018-08-31 11:10:42,611- keyWordDao.py:[line:62]- INFO - 关键字成绩添加成功
+2018-08-31 11:10:42,615- keyWordDao.py:[line:62]- INFO - 关键字你好添加成功
+2018-08-31 11:10:42,620- keyWordDao.py:[line:62]- INFO - 关键字subscribe添加成功

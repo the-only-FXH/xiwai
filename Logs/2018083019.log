@@ -1,0 +1,51 @@
+2018-08-30 19:52:34,026- userDao.py:[line:25]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 为空
+2018-08-30 19:52:40,803- userDao.py:[line:25]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 为空
+2018-08-30 19:52:42,495- userDao.py:[line:25]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 为空
+2018-08-30 19:52:42,496- userDao.py:[line:76]- ERROR - 用户or6FL07J8AeXcejGwN9HIUTvKiQc未绑定，无法解绑
+2018-08-30 19:52:44,479- userDao.py:[line:25]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 为空
+2018-08-30 19:52:44,479- userDao.py:[line:76]- ERROR - 用户or6FL07J8AeXcejGwN9HIUTvKiQc未绑定，无法解绑
+2018-08-30 19:52:45,629- userDao.py:[line:25]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 为空
+2018-08-30 19:52:45,629- userDao.py:[line:76]- ERROR - 用户or6FL07J8AeXcejGwN9HIUTvKiQc未绑定，无法解绑
+2018-08-30 19:52:46,505- userDao.py:[line:25]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 为空
+2018-08-30 19:52:46,506- userDao.py:[line:76]- ERROR - 用户or6FL07J8AeXcejGwN9HIUTvKiQc未绑定，无法解绑
+2018-08-30 19:52:47,247- userDao.py:[line:25]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 为空
+2018-08-30 19:52:47,247- userDao.py:[line:76]- ERROR - 用户or6FL07J8AeXcejGwN9HIUTvKiQc未绑定，无法解绑
+2018-08-30 19:52:47,991- userDao.py:[line:25]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 为空
+2018-08-30 19:52:47,991- userDao.py:[line:76]- ERROR - 用户or6FL07J8AeXcejGwN9HIUTvKiQc未绑定，无法解绑
+2018-08-30 19:52:49,079- userDao.py:[line:25]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 为空
+2018-08-30 19:52:49,079- userDao.py:[line:76]- ERROR - 用户or6FL07J8AeXcejGwN9HIUTvKiQc未绑定，无法解绑
+2018-08-30 19:52:49,672- userDao.py:[line:25]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 为空
+2018-08-30 19:54:21,617- userDao.py:[line:25]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 为空
+2018-08-30 19:54:33,281- userDao.py:[line:25]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 为空
+2018-08-30 19:54:41,936- userDao.py:[line:25]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 为空
+2018-08-30 19:54:41,936- userDao.py:[line:76]- ERROR - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc未绑定，无法解绑
+2018-08-30 19:55:04,259- userDao.py:[line:25]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 为空
+2018-08-30 19:55:21,947- userDao.py:[line:25]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 为空
+2018-08-30 19:55:21,953- userDao.py:[line:58]- INFO - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc用户绑定成功
+2018-08-30 19:55:30,751- userDao.py:[line:25]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 为空
+2018-08-30 19:55:37,476- userDao.py:[line:31]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以绑定
+2018-08-30 19:55:41,163- userDao.py:[line:31]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以绑定
+2018-08-30 19:55:43,923- scoreDao.py:[line:59]- INFO - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc数据库中无成绩
+2018-08-30 19:55:43,924- userDao.py:[line:25]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 为空
+2018-08-30 19:55:47,272- scoreDao.py:[line:59]- INFO - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc数据库中无成绩
+2018-08-30 19:55:47,273- userDao.py:[line:25]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 为空
+2018-08-30 19:56:43,141- scoreDao.py:[line:59]- INFO - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc数据库中无成绩
+2018-08-30 19:56:43,142- userDao.py:[line:25]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 为空
+2018-08-30 20:02:57,264- scoreDao.py:[line:59]- INFO - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc数据库中无成绩
+2018-08-30 20:02:57,266- userDao.py:[line:31]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以绑定
+2018-08-30 20:03:27,809- scoreDao.py:[line:128]- ERROR - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc成绩查询失败
+2018-08-30 20:03:27,809- scoreDao.py:[line:66]- WARNING - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc已爬1次
+2018-08-30 20:03:27,812- scoreDao.py:[line:59]- INFO - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc数据库中无成绩
+2018-08-30 20:03:27,813- userDao.py:[line:31]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以绑定
+2018-08-30 20:03:58,086- scoreDao.py:[line:128]- ERROR - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc成绩查询失败
+2018-08-30 20:03:58,086- scoreDao.py:[line:66]- WARNING - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc已爬2次
+2018-08-30 20:23:34,089- scoreDao.py:[line:59]- INFO - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc数据库中无成绩
+2018-08-30 20:23:34,091- userDao.py:[line:25]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 为空
+2018-08-30 20:24:33,221- scoreDao.py:[line:59]- INFO - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc数据库中无成绩
+2018-08-30 20:24:33,223- userDao.py:[line:31]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以绑定
+2018-08-30 20:25:03,413- scoreDao.py:[line:128]- ERROR - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc成绩查询失败
+2018-08-30 20:25:03,413- scoreDao.py:[line:66]- WARNING - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc已爬1次
+2018-08-30 20:25:03,415- scoreDao.py:[line:59]- INFO - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc数据库中无成绩
+2018-08-30 20:25:03,416- userDao.py:[line:31]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以绑定
+2018-08-30 20:25:03,501- scoreDao.py:[line:128]- ERROR - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc成绩查询失败
+2018-08-30 20:25:03,501- scoreDao.py:[line:66]- WARNING - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc已爬2次

@@ -1,0 +1,85 @@
+2018-08-31 09:02:42,241- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 09:02:42,242- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 09:02:44,954- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 09:02:44,960- userDao.py:[line:76]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc解绑成功
+2018-08-31 09:02:46,875- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 09:02:49,304- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 09:03:03,757- login.py:[line:43]- WARNING - 代理ip不可用1次
+2018-08-31 09:03:04,123- login.py:[line:43]- WARNING - 代理ip不可用2次
+2018-08-31 09:03:04,165- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 09:03:04,173- userDao.py:[line:61]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc用户绑定成功
+2018-08-31 09:03:13,697- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 09:03:13,697- userDao.py:[line:58]- ERROR - 用户or6FL07J8AeXcejGwN9HIUTvKiQc用户绑定失败
+2018-08-31 09:03:21,247- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 09:03:21,247- userDao.py:[line:58]- ERROR - 用户or6FL07J8AeXcejGwN9HIUTvKiQc用户绑定失败
+2018-08-31 09:03:31,359- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 09:03:31,360- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 09:03:33,361- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 09:03:33,362- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 09:04:25,323- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 09:04:25,347- userDao.py:[line:76]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc解绑成功
+2018-08-31 09:04:27,353- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 09:04:29,413- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 09:05:28,815- login.py:[line:43]- WARNING - 代理ip不可用1次
+2018-08-31 09:05:46,785- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 09:05:46,788- userDao.py:[line:61]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc用户绑定成功
+2018-08-31 09:05:59,077- login.py:[line:43]- WARNING - 代理ip不可用2次
+2018-08-31 09:06:01,569- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 09:06:01,573- userDao.py:[line:61]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc用户绑定成功
+2018-08-31 09:06:22,461- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 09:06:22,461- userDao.py:[line:79]- ERROR - 用户or6FL07J8AeXcejGwN9HIUTvKiQc未绑定，无法解绑
+2018-08-31 09:06:27,482- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 09:06:29,507- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 09:06:35,288- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 09:06:35,297- userDao.py:[line:61]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc用户绑定成功
+2018-08-31 09:06:41,787- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 09:06:41,788- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 09:06:49,318- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 09:06:51,275- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 09:06:56,249- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 09:07:00,800- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 09:57:53,629- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 09:57:53,629- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 09:58:07,539- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 09:58:07,540- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 10:00:19,975- userDao.py:[line:34]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以解绑
+2018-08-31 10:00:19,976- userDao.py:[line:79]- ERROR - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc未绑定，无法解绑
+2018-08-31 10:00:26,510- userDao.py:[line:34]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以解绑
+2018-08-31 10:00:29,435- userDao.py:[line:34]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以解绑
+2018-08-31 10:01:18,928- login.py:[line:43]- WARNING - 代理ip不可用1次
+2018-08-31 10:01:23,990- login.py:[line:43]- WARNING - 代理ip不可用2次
+2018-08-31 10:01:27,382- userDao.py:[line:34]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以解绑
+2018-08-31 10:01:28,684- login.py:[line:43]- WARNING - 代理ip不可用1次
+2018-08-31 10:01:29,000- login.py:[line:43]- WARNING - 代理ip不可用3次
+2018-08-31 10:01:30,126- userDao.py:[line:34]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以解绑
+2018-08-31 10:01:30,218- userDao.py:[line:34]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以解绑
+2018-08-31 10:01:30,225- userDao.py:[line:61]- INFO - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc用户绑定成功
+2018-08-31 10:01:34,240- login.py:[line:43]- WARNING - 代理ip不可用4次
+2018-08-31 10:01:37,313- userDao.py:[line:31]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以绑定
+2018-08-31 10:01:37,313- userDao.py:[line:58]- ERROR - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc用户绑定失败
+2018-08-31 10:01:39,439- login.py:[line:43]- WARNING - 代理ip不可用5次
+2018-08-31 10:01:43,857- userDao.py:[line:31]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以绑定
+2018-08-31 10:01:44,445- login.py:[line:43]- WARNING - 代理ip不可用6次
+2018-08-31 10:01:47,368- userDao.py:[line:31]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以绑定
+2018-08-31 10:01:47,369- userDao.py:[line:31]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以绑定
+2018-08-31 10:01:49,441- userDao.py:[line:31]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以绑定
+2018-08-31 10:01:49,444- scoreDao.py:[line:40]- INFO - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc今天未调取过爬虫
+2018-08-31 10:01:49,444- scoreDao.py:[line:71]- INFO - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc使用爬虫爬取成绩
+2018-08-31 10:01:49,445- userDao.py:[line:31]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以绑定
+2018-08-31 10:01:56,217- scoreDao.py:[line:125]- INFO - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc成绩更新成功
+2018-08-31 10:01:56,219- scoreDao.py:[line:37]- INFO - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc今天已经爬取过成绩
+2018-08-31 10:01:56,219- scoreDao.py:[line:79]- INFO - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc从数据库中取成绩
+2018-08-31 10:02:03,225- userDao.py:[line:31]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以绑定
+2018-08-31 10:02:03,230- userDao.py:[line:76]- INFO - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc解绑成功
+2018-08-31 10:02:16,150- userDao.py:[line:34]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以解绑
+2018-08-31 10:02:19,942- userDao.py:[line:34]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以解绑
+2018-08-31 10:02:23,255- userDao.py:[line:34]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以解绑
+2018-08-31 10:02:29,780- userDao.py:[line:34]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以解绑
+2018-08-31 10:02:29,786- userDao.py:[line:61]- INFO - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc用户绑定成功
+2018-08-31 10:02:36,076- userDao.py:[line:31]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以绑定
+2018-08-31 10:02:36,077- userDao.py:[line:31]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以绑定
+2018-08-31 10:02:43,288- userDao.py:[line:31]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以绑定
+2018-08-31 10:02:53,163- userDao.py:[line:31]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以绑定
+2018-08-31 10:02:55,446- userDao.py:[line:31]- INFO - 用户名 or6FL0xFVD-QR-2Taj9b7xDyESIc 以绑定
+2018-08-31 10:02:55,449- scoreDao.py:[line:37]- INFO - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc今天已经爬取过成绩
+2018-08-31 10:02:55,449- scoreDao.py:[line:79]- INFO - 用户or6FL0xFVD-QR-2Taj9b7xDyESIc从数据库中取成绩

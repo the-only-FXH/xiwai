@@ -1,0 +1,139 @@
+2018-08-31 08:40:35,421- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:40:41,460- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:40:44,344- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:40:44,344- userDao.py:[line:79]- ERROR - 用户or6FL07J8AeXcejGwN9HIUTvKiQc未绑定，无法解绑
+2018-08-31 08:40:46,966- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:40:52,840- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:40:52,840- userDao.py:[line:79]- ERROR - 用户or6FL07J8AeXcejGwN9HIUTvKiQc未绑定，无法解绑
+2018-08-31 08:40:55,447- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:40:55,448- userDao.py:[line:79]- ERROR - 用户or6FL07J8AeXcejGwN9HIUTvKiQc未绑定，无法解绑
+2018-08-31 08:40:57,567- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:42:40,146- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:42:40,155- userDao.py:[line:61]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc用户绑定成功
+2018-08-31 08:42:47,510- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:42:47,511- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:42:52,842- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:42:52,843- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:42:54,158- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:42:54,159- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:42:55,702- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:42:55,703- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:42:56,254- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:42:56,255- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:42:56,402- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:42:56,403- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:42:57,463- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:42:57,464- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:42:57,991- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:42:57,992- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:43:03,064- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:43:05,659- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:43:05,662- scoreDao.py:[line:40]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc今天未调取过爬虫
+2018-08-31 08:43:05,662- scoreDao.py:[line:71]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc使用爬虫爬取成绩
+2018-08-31 08:43:05,662- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:43:11,873- scoreDao.py:[line:125]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc成绩更新成功
+2018-08-31 08:43:11,875- scoreDao.py:[line:37]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc今天已经爬取过成绩
+2018-08-31 08:43:11,875- scoreDao.py:[line:79]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc从数据库中取成绩
+2018-08-31 08:43:26,092- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:43:26,095- scoreDao.py:[line:40]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc今天未调取过爬虫
+2018-08-31 08:43:26,095- scoreDao.py:[line:71]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc使用爬虫爬取成绩
+2018-08-31 08:43:26,096- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:43:27,592- scoreDao.py:[line:125]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc成绩更新成功
+2018-08-31 08:43:27,594- scoreDao.py:[line:37]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc今天已经爬取过成绩
+2018-08-31 08:43:27,594- scoreDao.py:[line:79]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc从数据库中取成绩
+2018-08-31 08:43:30,085- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:43:30,090- userDao.py:[line:76]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc解绑成功
+2018-08-31 08:43:33,535- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:43:35,384- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:43:38,157- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:43:42,724- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:43:44,781- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:43:47,375- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:43:47,375- userDao.py:[line:79]- ERROR - 用户or6FL07J8AeXcejGwN9HIUTvKiQc未绑定，无法解绑
+2018-08-31 08:43:48,884- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:43:48,885- userDao.py:[line:79]- ERROR - 用户or6FL07J8AeXcejGwN9HIUTvKiQc未绑定，无法解绑
+2018-08-31 08:43:50,531- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:43:50,532- userDao.py:[line:79]- ERROR - 用户or6FL07J8AeXcejGwN9HIUTvKiQc未绑定，无法解绑
+2018-08-31 08:43:52,310- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:43:56,080- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:44:00,616- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:44:00,623- userDao.py:[line:61]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc用户绑定成功
+2018-08-31 08:44:05,015- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:05,016- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:07,294- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:07,295- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:08,848- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:08,849- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:10,200- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:10,201- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:11,231- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:11,232- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:12,126- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:12,127- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:12,902- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:12,903- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:13,236- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:13,237- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:13,361- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:13,362- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:14,166- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:14,167- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:15,528- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:15,529- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:16,199- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:16,199- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:16,898- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:16,899- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:17,690- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:17,691- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:23,354- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:24,161- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:25,081- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:25,502- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:26,282- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:29,484- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:44:29,487- scoreDao.py:[line:37]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc今天已经爬取过成绩
+2018-08-31 08:44:29,487- scoreDao.py:[line:79]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc从数据库中取成绩
+2018-08-31 08:47:15,519- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:47:19,872- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:47:22,968- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:47:22,969- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:47:26,093- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:47:26,096- scoreDao.py:[line:37]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc今天已经爬取过成绩
+2018-08-31 08:47:26,096- scoreDao.py:[line:79]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc从数据库中取成绩
+2018-08-31 08:47:28,451- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:47:28,457- userDao.py:[line:76]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc解绑成功
+2018-08-31 08:47:35,451- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:47:41,240- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:47:41,244- userDao.py:[line:61]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc用户绑定成功
+2018-08-31 08:47:48,071- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:47:51,531- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:47:53,520- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:47:56,411- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:47:59,054- userDao.py:[line:34]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以解绑
+2018-08-31 08:47:59,062- userDao.py:[line:61]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc用户绑定成功
+2018-08-31 08:48:09,721- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:48:12,396- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:48:12,397- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:48:15,135- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:48:15,138- scoreDao.py:[line:37]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc今天已经爬取过成绩
+2018-08-31 08:48:15,138- scoreDao.py:[line:79]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc从数据库中取成绩
+2018-08-31 08:48:17,572- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:51:52,104- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:51:54,941- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:51:54,944- scoreDao.py:[line:37]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc今天已经爬取过成绩
+2018-08-31 08:51:54,944- scoreDao.py:[line:79]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc从数据库中取成绩
+2018-08-31 08:52:22,475- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:52:26,773- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:52:26,774- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:52:28,952- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:52:28,953- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:52:47,721- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:52:47,722- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:52:50,958- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:52:52,748- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:52:52,751- scoreDao.py:[line:37]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc今天已经爬取过成绩
+2018-08-31 08:52:52,753- scoreDao.py:[line:79]- INFO - 用户or6FL07J8AeXcejGwN9HIUTvKiQc从数据库中取成绩
+2018-08-31 08:58:11,694- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:58:11,695- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定
+2018-08-31 08:58:19,739- userDao.py:[line:31]- INFO - 用户名 or6FL07J8AeXcejGwN9HIUTvKiQc 以绑定

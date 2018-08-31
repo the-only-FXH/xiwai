@@ -5,6 +5,7 @@ import sys
 from bs4 import BeautifulSoup
 sys.path.append("..")
 from spider.login import login
+from tools.logger import logger
 import json
 import time
 
@@ -12,9 +13,13 @@ import time
 class Score:
     def __init__(self,username,password):
         loginOb=login(username,password)
-        loginInfo=loginOb.main()
-        self.sess=loginInfo[0]
-        self.proxy=loginInfo[1]
+        try:
+            loginInfo=loginOb.main()
+            self.sess=loginInfo[0]
+            self.proxy=loginInfo[1]
+        except:
+            self.sess=None
+            self.proxy=None
 
 
     def getscore(self):
@@ -38,6 +43,8 @@ class Score:
             return("")
 
     def parseScorePage(self):
+        if(self.sess==None):
+            return None
         html=self.getscore()
         list=[]
         soup=BeautifulSoup(html,'html.parser')

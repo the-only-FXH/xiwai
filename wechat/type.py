@@ -1,9 +1,11 @@
 import web
 import hashlib
 import lxml
+import json
 import time
 import os
 from dao.userDao import UserDao
+from dao.scoreDao import ScoreDao
 from wechat.xmlTemplate import Template
 from config import configfile
 from dao.keyWordDao import keyWordDao
@@ -38,12 +40,11 @@ class Wechat(object):
 			return retXML
 	
 	def event(self):
-		xml = self.xml
-		event = xml.find("Event").text
+		event = self.xml.find("Event").text
 		if event=="subscribe":
 			return "subscribe"
 		elif event == "CLICK":
-			return xml.find("EventKey").text
+			return self.xml.find("EventKey").text
 		else:
 			return  "else"
 
@@ -68,8 +69,7 @@ class Wechat(object):
 
 
 	def jiebang(self):
-		xml = self.xml
-		fromUser = xml.find("FromUserName").text
+		fromUser = self.xml.find("FromUserName").text
 		user = UserDao()
 		flag=user.deleteUser(fromUser)
 		if(flag==True):
@@ -79,8 +79,7 @@ class Wechat(object):
 		return resultStr
 
 	def bangding(self):
-		xml = self.xml
-		fromUser = xml.find("FromUserName").text
+		fromUser = self.xml.find("FromUserName").text
 		user = UserDao()
 		flag=user.selectUserFlag(fromUser)
 		if(flag!=3):
@@ -92,16 +91,33 @@ class Wechat(object):
 			data='您已绑定,您的绑定信息为\n用户名：{username}\n密  码：{password}'.format(username=username,password=password)
 		return data
 		
-
-
 	def chengji(self):
-		xml = self.xml
-		fromUser = xml.find("FromUserName").text
+		fromUser = self.xml.find("FromUserName").text
 		user = UserDao()
 		flag=user.selectUserFlag(fromUser)
-		if(flag==3):
-			data = "<a href='http://xiwai.chdbwtx.cn/Score?openid=%s'>详细成绩</a>"%fromUser
-		else:
+		if(flag!=3):
 			data='您未绑定'
-		return data
+			return data
+		score = ScoreDao(fromUser)
+		scoreStr=score.selectScore()
+		# 调取后台接口，获取成绩的数据
+		if(scoreStr==2):
+			data='网络繁忙，稍后再试'
+			return data
+		else:
+			data = ''
+			jidian=0.0
+			datascore=json.loads(scoreStr)
+			for score in datascore:
+				jidian+=float(score['jidian'])
+				data += score['name']+":\n"+\
+				"成绩："+score['zuizhong']+"\n\n"
+			data+="平均绩点："+str(round(jidian/len(datascore),1))+"\n"
+			data+="<a href='http://xiwai.chdbwtx.cn/Score?openid=%s'>详细成绩</a>"%fromUser
+			return data
+		# if(flag==3):
+		# 	data = "<a href='http://xiwai.chdbwtx.cn/Score?openid=%s'>详细成绩</a>"%fromUser
+		# else:
+		# 	data='您未绑定'
+		# return data
 		

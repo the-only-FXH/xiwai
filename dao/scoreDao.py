@@ -96,6 +96,7 @@ class ScoreDao:
         scoreInfo.openid = self.openidStr
         scoreInfo.score = score_json
         scoreInfo.termStr = configfile.getConfig("term","termStr")
+        scoreInfo.updateTime=datetime.datetime.now().date()
         try:
             self.session.add(scoreInfo)
             self.session.commit()

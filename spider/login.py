@@ -50,18 +50,24 @@ class login:
             
         pattern = re.compile(
             '[a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12}-')
-        sec_str = pattern.findall(index_html)
-        if(sec_str==None):
+        try:
+            sec_str = pattern.findall(index_html)
+            if(sec_str==None):
+                return False
+            hash_str = sec_str[0]
+            hash_str = hash_str + self.password
+            sha1 = hashlib.sha1()
+            sha1.update(hash_str.encode('utf-8'))
+            res = sha1.hexdigest()
+            return res
+        except:
             return False
-        hash_str = sec_str[0]
-        hash_str = hash_str + self.password
-        sha1 = hashlib.sha1()
-        sha1.update(hash_str.encode('utf-8'))
-        res = sha1.hexdigest()
-        return res
 
     def post_info(self, data):
-        result=self.sess.post(self.indexurl, headers=self.header, data=data, timeout=30, proxies=self.proxy)
+        try:
+            result=self.sess.post(self.indexurl, headers=self.header, data=data, timeout=30, proxies=self.proxy)
+        except:
+            self.post_info(data)
         TrueUrl='http://jwxt.xisu.edu.cn/eams/home.action'
         falseUrl='http://jwxt.xisu.edu.cn/eams/login.action'
         if(result.url==TrueUrl):

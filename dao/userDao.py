@@ -41,6 +41,8 @@ class UserDao:
     # True:用户绑定成功
 
     def insertOrUpdateUser(self, usermap):
+        
+        session=Session()
         user=User()
         user.openid=usermap["openid"]
         user.username=usermap["username"]
@@ -48,18 +50,31 @@ class UserDao:
 
         flag=self.selectUserFlag(user.openid)
         if(flag==1):
-            self.session.add(user)
+            try:
+                session.add(user)
+                session.commit()
+                logger.info("用户"+user.openid+"用户绑定成功")
+                return True
+            except:
+                logger.error("用户"+user.openid+"用户绑定失败")
+                return False
         elif(flag==2):
-            user= self.session.query(User).filter_by(openid=user.openid).first()
-            user.username=usermap["username"]
-            user.password=usermap["password"]
-            user.flag=1
+            try:
+                user= session.query(User).filter_by(openid=user.openid).first()
+                user.username=usermap["username"]
+                user.password=usermap["password"]
+                user.flag=1
+                session.commit()
+                logger.info("用户"+user.openid+"用户更新成功")
+                return True
+            except:
+                logger.error("用户"+user.openid+"用户绑定失败")
+                return False
         else:
             logger.error("用户"+user.openid+"用户绑定失败")
             return False
-        self.session.commit()
-        logger.info("用户"+user.openid+"用户绑定成功")
-        return True
+        
+        
 
     # 解除绑定
     # 参数：openid
@@ -68,11 +83,12 @@ class UserDao:
     # False:用户解绑失败
 
     def deleteUser(self, openidStr):
+        session=Session()
         flag=self.selectUserFlag(openidStr)
         if(flag==3):
-            user = self.session.query(User).filter_by(openid=openidStr).first()
+            user = session.query(User).filter_by(openid=openidStr).first()
             user.flag=0
-            self.session.commit()
+            session.commit()
             logger.info("用户"+openidStr+"解绑成功")
             return True
         else:
